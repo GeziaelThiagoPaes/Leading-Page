@@ -107,8 +107,8 @@ li, a {
   display: flex;
   justify-content: center;
   border: 1px solid #e9dcdc;
-  /*padding-left: 5px;
-  padding-right: 5px;*/ }
+  padding-left: 5px;
+  padding-right: 5px; }
 
 .quote {
   flex-grow: 0;
@@ -134,7 +134,8 @@ cite {
 
 .subscribe {
   background-color: #3b82f6;
-  width: 90%;
+  width: auto;
+  max-width: 1020px;
   height: auto;
   min-height: 130px;
   margin-right: auto;
