@@ -40,6 +40,7 @@ ul{
     
 }
 li,a{
+    flex: auto;
     font-size: $herosecondary;
     color: $headerlink;
     list-style: none;
@@ -89,6 +90,7 @@ li,a{
     border-radius: 15px;
     width: 26.5em;
     height: 300px;
+    max-width: 100%;
 
 }
 .title2{
@@ -123,6 +125,7 @@ li,a{
 }
 
 .inspiration{
+  
     height: 432px;
     align-items: center;
     background-color: #e5e7eb;
@@ -131,6 +134,7 @@ li,a{
     border: 1px solid rgb(233, 220, 220);
    padding-left: 5px;
    padding-right: 5px;
+   max-width: 100%;
     
     
 }
